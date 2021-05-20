@@ -1,0 +1,77 @@
+digraph G {
+layout=sfdp; overlap=prism; overlap_scaling=-5; labelloc="t"; label="Connected Component 87143"; fontsize=30
+node[colorscheme=accent8, style=filled, color=black]
+"2597346"[fillcolor= "2",label= "Savings"]
+"928916"[fillcolor= "1",label= "Jakob\nZuniga"]
+"1597346"[fillcolor= "2",label= "Checking"]
+"5459949"[fillcolor= "6",label= "Phone"]
+"5846118"[fillcolor= "6",label= "Phone"]
+"846118"[fillcolor= "1",label= "Jane\nEdwards"]
+"4459949"[fillcolor= "5",label= "SSN"]
+"4846118"[fillcolor= "5",label= "SSN"]
+"3459949"[fillcolor= "3",label= "Unsecured Loan"]
+"3846118"[fillcolor= "4",label= "Credit Card"]
+"2459949"[fillcolor= "2",label= "Savings"]
+"2846118"[fillcolor= "2",label= "Savings"]
+"1459949"[fillcolor= "2",label= "Checking"]
+"1846118"[fillcolor= "2",label= "Checking"]
+"419215"[fillcolor= "1",label= "Hezekiah\nBuck"]
+"459949"[fillcolor= "1",label= "Luna\nYu"]
+"4928916"[fillcolor= "5",label= "SSN"]
+"3928916"[fillcolor= "4",label= "Credit Card"]
+"2928916"[fillcolor= "2",label= "Savings"]
+"5419215"[fillcolor= "6",label= "Phone"]
+"6087950"[fillcolor= "7",label= "48642 Lake Avenue\nSpringfield, IL 60406"]
+"1928916"[fillcolor= "2",label= "Checking"]
+"4419215"[fillcolor= "5",label= "SSN"]
+"5087950"[fillcolor= "6",label= "Phone"]
+"87950"[fillcolor= "1",label= "Emanuel\nBradford"]
+"3419215"[fillcolor= "3",label= "Unsecured Loan"]
+"4087950"[fillcolor= "5",label= "SSN"]
+"2419215"[fillcolor= "2",label= "Savings"]
+"3087950"[fillcolor= "3",label= "Unsecured Loan"]
+"6597346"[fillcolor= "7",label= "74501 SouthWest Park Heights\nQuincy, IL 60417"]
+"1419215"[fillcolor= "2",label= "Checking"]
+"2087950"[fillcolor= "2",label= "Savings"]
+"5597346"[fillcolor= "6",label= "Phone"]
+"597346"[fillcolor= "1",label= "Angie\nHuffman"]
+"1087950"[fillcolor= "2",label= "Checking"]
+"4597346"[fillcolor= "5",label= "SSN"]
+"3597346"[fillcolor= "4",label= "Credit Card"]
+"928916" -> "6597346"
+"928916" -> "5459949"
+"928916" -> "4928916"
+"928916" -> "3928916"
+"928916" -> "2928916"
+"928916" -> "1928916"
+"846118" -> "6597346"
+"846118" -> "5846118"
+"846118" -> "4846118"
+"846118" -> "3846118"
+"846118" -> "2846118"
+"846118" -> "1846118"
+"419215" -> "5419215"
+"419215" -> "6087950"
+"419215" -> "3419215"
+"419215" -> "2419215"
+"419215" -> "4419215"
+"419215" -> "1419215"
+"459949" -> "6087950"
+"459949" -> "5459949"
+"459949" -> "4459949"
+"459949" -> "3459949"
+"459949" -> "2459949"
+"459949" -> "1459949"
+"87950" -> "1087950"
+"87950" -> "3087950"
+"87950" -> "5087950"
+"87950" -> "4087950"
+"87950" -> "2087950"
+"87950" -> "6087950"
+"597346" -> "6597346"
+"597346" -> "5597346"
+"597346" -> "4597346"
+"597346" -> "3597346"
+"597346" -> "2597346"
+"597346" -> "1597346"
+}

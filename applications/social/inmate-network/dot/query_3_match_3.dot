@@ -1,0 +1,12 @@
+digraph G {
+layout=dot
+node[colorscheme=paired8, style=filled, color=black]
+"I32876"[fillcolor= "1",label= "Jude\nYang"]
+"I46914"[fillcolor= "1",label= "Dallas\nWeeks"]
+"I02537"[fillcolor= "1",label= "Gerardo\nFuller"]
+"R04P03S02C19"[fillcolor= "2",label= "S02C19"]
+"I02537" -> "R04P03S02C19"
+"I32876" -> "R04P03S02C19"
+"I32876" -> "R04P03S02C19"
+"I46914" -> "R04P03S02C19"
+}

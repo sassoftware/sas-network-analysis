@@ -1,0 +1,24 @@
+graph G {
+layout=sfdp; overlap=prism; overlap_scaling=-5
+node[colorscheme=accent4, style=filled]
+"A"[color= "1"]
+"B"[color= "2"]
+"C"[color= "2"]
+"D"[color= "2"]
+"E"[color= "1"]
+"F"[color= "1"]
+"G"[color= "3"]
+"H"[color= "3"]
+"I"[color= "3"]
+"A" -- "B"
+"A" -- "F"
+"A" -- "G"
+"B" -- "C"
+"B" -- "D"
+"B" -- "E"
+"C" -- "D"
+"E" -- "F"
+"G" -- "I"
+"G" -- "H"
+"H" -- "I"
+}

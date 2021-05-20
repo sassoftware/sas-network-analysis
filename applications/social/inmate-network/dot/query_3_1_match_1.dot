@@ -1,0 +1,14 @@
+digraph G {
+layout=sfdp
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"I18758"[fillcolor= "1",label= "Ronnie\nMoreno"]
+"I37385"[fillcolor= "1",label= "Sincere\nMercado"]
+"I16215"[fillcolor= "1",label= "Devyn\nStephenson"]
+"R04P04S14C23"[fillcolor= "2",label= "S14C23"]
+"R04P03S29C01"[fillcolor= "2",label= "S29C01"]
+"I16215" -> "R04P03S29C01"[label= "[02APR2014,02APR2018]"]
+"I16215" -> "R04P04S14C23"[label= "[03APR1999,02APR2009]"]
+"I18758" -> "R04P03S29C01"[label= "[23APR2014,23APR2018]"]
+"I37385" -> "R04P03S29C01"[label= "[13APR2018,12APR2028]"]
+"I37385" -> "R04P04S14C23"[label= "[14APR1999,14APR2007]"]
+}

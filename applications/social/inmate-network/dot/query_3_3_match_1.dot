@@ -1,0 +1,12 @@
+digraph G {
+layout=sfdp
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"I06219"[fillcolor= "1",label= "Brooks\nLe"]
+"I36786"[fillcolor= "1",label= "Randy\nWilson"]
+"I05722"[fillcolor= "1",label= "Jovany\nCoffey"]
+"R03P01S14C23"[fillcolor= "2",label= "S14C23"]
+"I05722" -> "R03P01S14C23"[label= "[16FEB1978,16FEB2008]"]
+"I06219" -> "R03P01S14C23"[label= "[25FEB1977,25FEB2007]"]
+"I06219" -> "R03P01S14C23"[label= "[25FEB2012,25FEB2016]"]
+"I36786" -> "R03P01S14C23"[label= "[26FEB2007,26FEB2015]"]
+}

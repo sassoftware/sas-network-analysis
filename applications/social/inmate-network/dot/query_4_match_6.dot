@@ -1,0 +1,13 @@
+graph G {
+layout=sfdp
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"I54430"[fillcolor= "1",label= "Jonah
+Shelton"]
+"I43617"[fillcolor= "1",label= "Paul
+Brennan"]
+"I36923"[fillcolor= "1",label= "Kieran
+Conner"]
+"I36923" -- "I43617"[label= "Cell:S09C06[10SEP2008,10SEP2012]"]
+"I36923" -- "I54430"[label= "Cell:S09C06[01OCT2012,09SEP2016]"]
+"I43617" -- "I54430"[label= "Cell:S09C06[10SEP2016,01OCT2016]"]
+}

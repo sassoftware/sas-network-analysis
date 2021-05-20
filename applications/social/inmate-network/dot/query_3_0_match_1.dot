@@ -1,0 +1,16 @@
+digraph G {
+layout=sfdp
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"I41770"[fillcolor= "1",label= "Zaire\nChan"]
+"I35970"[fillcolor= "1",label= "Tony\nBradshaw"]
+"I08633"[fillcolor= "1",label= "Todd\nMooney"]
+"R05P04S11C21"[fillcolor= "2",label= "S11C21"]
+"R05P03S12C08"[fillcolor= "2",label= "S12C08"]
+"R05P01S12C24"[fillcolor= "2",label= "S12C24"]
+"I08633" -> "R05P01S12C24"[label= "[22JAN2004,21JAN2014]"]
+"I08633" -> "R05P04S11C21"[label= "[21JAN2019,21JAN2027]"]
+"I35970" -> "R05P01S12C24"[label= "[01JAN2013,01JAN2017]"]
+"I35970" -> "R05P03S12C08"[label= "[01JAN1997,01JAN2005]"]
+"I41770" -> "R05P03S12C08"[label= "[15JAN1997,15JAN2005]"]
+"I41770" -> "R05P04S11C21"[label= "[15JAN2009,16JAN2109]"]
+}

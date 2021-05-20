@@ -1,0 +1,9 @@
+digraph G {
+layout=fdp; overlap=prism; overlap_scaling=-5
+node[colorscheme=accent8, style=filled, color=black]
+"1"[fillcolor= "1",label= "Person1"]
+"2"[fillcolor= "1",label= "Person2"]
+"3"[fillcolor= "5",label= "SSN"]
+"1" -> "3"[label= "HAS_ID"]
+"2" -> "3"[label= "HAS_ID"]
+}

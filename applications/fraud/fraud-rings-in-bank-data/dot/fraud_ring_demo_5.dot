@@ -1,0 +1,77 @@
+digraph G {
+layout=sfdp; overlap=prism; overlap_scaling=-5; labelloc="t"; label="Connected Component 53760"; fontsize=30
+node[colorscheme=accent8, style=filled, color=black]
+"3054051"[fillcolor= "3",label= "Unsecured Loan"]
+"2054051"[fillcolor= "2",label= "Savings"]
+"925965"[fillcolor= "1",label= "Kyler\nSherman"]
+"1054051"[fillcolor= "2",label= "Checking"]
+"5479869"[fillcolor= "6",label= "Phone"]
+"4479869"[fillcolor= "5",label= "SSN"]
+"3479869"[fillcolor= "3",label= "Unsecured Loan"]
+"5407938"[fillcolor= "6",label= "Phone"]
+"2479869"[fillcolor= "2",label= "Savings"]
+"4407938"[fillcolor= "5",label= "SSN"]
+"1479869"[fillcolor= "2",label= "Checking"]
+"3407938"[fillcolor= "3",label= "Unsecured Loan"]
+"5398502"[fillcolor= "6",label= "Phone"]
+"6925965"[fillcolor= "7",label= "35173 East Elm Drive\nChicago, IL 60401"]
+"213070"[fillcolor= "1",label= "Lainey\nSingh"]
+"2407938"[fillcolor= "2",label= "Savings"]
+"4398502"[fillcolor= "5",label= "SSN"]
+"5925965"[fillcolor= "6",label= "Phone"]
+"1407938"[fillcolor= "2",label= "Checking"]
+"3398502"[fillcolor= "3",label= "Unsecured Loan"]
+"5213070"[fillcolor= "6",label= "Phone"]
+"2398502"[fillcolor= "2",label= "Savings"]
+"3925965"[fillcolor= "4",label= "Credit Card"]
+"4213070"[fillcolor= "5",label= "SSN"]
+"1398502"[fillcolor= "2",label= "Checking"]
+"2925965"[fillcolor= "2",label= "Savings"]
+"3213070"[fillcolor= "3",label= "Unsecured Loan"]
+"479869"[fillcolor= "1",label= "Averi\nRiggs"]
+"1925965"[fillcolor= "2",label= "Checking"]
+"2213070"[fillcolor= "2",label= "Savings"]
+"1213070"[fillcolor= "2",label= "Checking"]
+"398502"[fillcolor= "1",label= "Azaria\nZimmerman"]
+"6054051"[fillcolor= "7",label= "56002 Elm Drive\nEvanston, IL 60413"]
+"5054051"[fillcolor= "6",label= "Phone"]
+"54051"[fillcolor= "1",label= "Natalee\nCarlson"]
+"407938"[fillcolor= "1",label= "Demarcus\nGould"]
+"4054051"[fillcolor= "5",label= "SSN"]
+"925965" -> "6925965"
+"925965" -> "5925965"
+"925965" -> "4213070"
+"925965" -> "3925965"
+"925965" -> "2925965"
+"925965" -> "1925965"
+"213070" -> "5213070"
+"213070" -> "4213070"
+"213070" -> "2213070"
+"213070" -> "1213070"
+"213070" -> "3213070"
+"213070" -> "6054051"
+"479869" -> "3479869"
+"479869" -> "6054051"
+"479869" -> "5479869"
+"479869" -> "4479869"
+"479869" -> "2479869"
+"479869" -> "1479869"
+"398502" -> "1398502"
+"398502" -> "2398502"
+"398502" -> "5398502"
+"398502" -> "6054051"
+"398502" -> "4398502"
+"398502" -> "3398502"
+"54051" -> "3054051"
+"54051" -> "5054051"
+"54051" -> "2054051"
+"54051" -> "1054051"
+"54051" -> "6054051"
+"54051" -> "4054051"
+"407938" -> "6054051"
+"407938" -> "5407938"
+"407938" -> "4407938"
+"407938" -> "2407938"
+"407938" -> "1407938"
+"407938" -> "3407938"
+}

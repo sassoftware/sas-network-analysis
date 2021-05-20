@@ -1,0 +1,12 @@
+digraph G {
+layout=sfdp
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"I32876"[fillcolor= "1",label= "Jude\nYang"]
+"I46914"[fillcolor= "1",label= "Dallas\nWeeks"]
+"I02537"[fillcolor= "1",label= "Gerardo\nFuller"]
+"R04P03S02C19"[fillcolor= "2",label= "S02C19"]
+"I02537" -> "R04P03S02C19"[label= "[29NOV2013,29NOV2018]"]
+"I32876" -> "R04P03S02C19"[label= "[01DEC2018,01JUN2019]"]
+"I32876" -> "R04P03S02C19"[label= "[02DEC1995,02DEC2015]"]
+"I46914" -> "R04P03S02C19"[label= "[03DEC2015,04DEC2115]"]
+}

@@ -1,0 +1,77 @@
+digraph G {
+layout=sfdp; overlap=prism; overlap_scaling=-5; labelloc="t"; label="Connected Component 260786"; fontsize=30
+node[colorscheme=accent8, style=filled, color=black]
+"3382523"[fillcolor= "3",label= "Unsecured Loan"]
+"965467"[fillcolor= "1",label= "Daniela\nAtkins"]
+"2382523"[fillcolor= "2",label= "Savings"]
+"5609346"[fillcolor= "6",label= "Phone"]
+"1382523"[fillcolor= "2",label= "Checking"]
+"4609346"[fillcolor= "5",label= "SSN"]
+"3609346"[fillcolor= "4",label= "Credit Card"]
+"609346"[fillcolor= "1",label= "Avery\nVillanueva"]
+"2609346"[fillcolor= "2",label= "Savings"]
+"1609346"[fillcolor= "2",label= "Checking"]
+"6965467"[fillcolor= "7",label= "72988 SouthEast Third Alley\nUrbana, IL 60416"]
+"268875"[fillcolor= "1",label= "London\nBass"]
+"5965467"[fillcolor= "6",label= "Phone"]
+"4965467"[fillcolor= "5",label= "SSN"]
+"3965467"[fillcolor= "4",label= "Credit Card"]
+"2965467"[fillcolor= "2",label= "Savings"]
+"1965467"[fillcolor= "2",label= "Checking"]
+"5931994"[fillcolor= "6",label= "Phone"]
+"6268875"[fillcolor= "7",label= "18515 First Fork\nAurora, IL 60402"]
+"382523"[fillcolor= "1",label= "Savion\nJordan"]
+"985672"[fillcolor= "1",label= "Coleman\nDoyle"]
+"4931994"[fillcolor= "5",label= "SSN"]
+"4985672"[fillcolor= "5",label= "SSN"]
+"5268875"[fillcolor= "6",label= "Phone"]
+"3931994"[fillcolor= "4",label= "Credit Card"]
+"3985672"[fillcolor= "4",label= "Credit Card"]
+"4268875"[fillcolor= "5",label= "SSN"]
+"2931994"[fillcolor= "2",label= "Savings"]
+"2985672"[fillcolor= "2",label= "Savings"]
+"3268875"[fillcolor= "3",label= "Unsecured Loan"]
+"1931994"[fillcolor= "2",label= "Checking"]
+"1985672"[fillcolor= "2",label= "Checking"]
+"2268875"[fillcolor= "2",label= "Savings"]
+"5382523"[fillcolor= "6",label= "Phone"]
+"931994"[fillcolor= "1",label= "Makayla\nPhillips"]
+"1268875"[fillcolor= "2",label= "Checking"]
+"4382523"[fillcolor= "5",label= "SSN"]
+"965467" -> "6965467"
+"965467" -> "5965467"
+"965467" -> "4965467"
+"965467" -> "3965467"
+"965467" -> "2965467"
+"965467" -> "1965467"
+"609346" -> "6268875"
+"609346" -> "5609346"
+"609346" -> "4609346"
+"609346" -> "3609346"
+"609346" -> "2609346"
+"609346" -> "1609346"
+"268875" -> "2268875"
+"268875" -> "5268875"
+"268875" -> "4268875"
+"268875" -> "3268875"
+"268875" -> "6268875"
+"268875" -> "1268875"
+"382523" -> "5382523"
+"382523" -> "3382523"
+"382523" -> "4382523"
+"382523" -> "6268875"
+"382523" -> "2382523"
+"382523" -> "1382523"
+"985672" -> "6965467"
+"985672" -> "5382523"
+"985672" -> "4985672"
+"985672" -> "3985672"
+"985672" -> "2985672"
+"985672" -> "1985672"
+"931994" -> "6268875"
+"931994" -> "5931994"
+"931994" -> "4931994"
+"931994" -> "3931994"
+"931994" -> "2931994"
+"931994" -> "1931994"
+}

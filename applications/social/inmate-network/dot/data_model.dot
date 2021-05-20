@@ -1,0 +1,20 @@
+digraph G 
+{
+    layout=dot
+    dpi = 300
+    rankdir = LR
+    ranksep = .9
+    splines = line
+    node[shape=circle]
+    node[width=1]
+
+    
+    Inmate -> Cell [label="[start, end], sentenceId"]
+    Cell -> Section
+    Section -> Prison
+    Prison -> Region
+
+}
+
+// dot data_model.dot -Tpng -o data_model.png
+// dot data_model.dot -Tpdf -o data_model.pdf

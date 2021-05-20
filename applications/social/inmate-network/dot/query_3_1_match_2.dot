@@ -1,0 +1,14 @@
+digraph G {
+layout=sfdp
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"I39646"[fillcolor= "1",label= "Gianni\nCarter"]
+"I46215"[fillcolor= "1",label= "Josue\nMcpherson"]
+"I37491"[fillcolor= "1",label= "Aidan\nStevenson"]
+"R05P05S03C27"[fillcolor= "2",label= "S03C27"]
+"R05P01S18C10"[fillcolor= "2",label= "S18C10"]
+"I37491" -> "R05P01S18C10"[label= "[02JUN1982,01JUN2012]"]
+"I37491" -> "R05P05S03C27"[label= "[01JUN2017,01JUN2027]"]
+"I39646" -> "R05P01S18C10"[label= "[22FEB2012,21FEB2017]"]
+"I46215" -> "R05P01S18C10"[label= "[02JUN2012,02JUN2016]"]
+"I46215" -> "R05P05S03C27"[label= "[02JUN2020,02JUN2025]"]
+}

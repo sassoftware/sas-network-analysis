@@ -1,0 +1,9 @@
+digraph G {
+layout=sfdp; overlap=prism; overlap_scaling=-3
+node[colorscheme=paired8, style=filled, color=black]
+"R01P01S01C01"[fillcolor= "",label= "",color= "blue",penwidth= "3"]
+"I42623"[fillcolor= "",label= "Buck",color= "blue",penwidth= "3"]
+"I14733"[fillcolor= "",label= "Drake",color= "blue",penwidth= "3"]
+"I14733" -> "R01P01S01C01"[color= "blue",penwidth= "3"]
+"I42623" -> "R01P01S01C01"[color= "blue",penwidth= "3"]
+}

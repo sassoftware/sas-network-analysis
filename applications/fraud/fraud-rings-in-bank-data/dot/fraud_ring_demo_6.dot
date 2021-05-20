@@ -1,0 +1,65 @@
+digraph G {
+layout=sfdp; overlap=prism; overlap_scaling=-5; labelloc="t"; label="Connected Component 12123"; fontsize=30
+node[colorscheme=accent8, style=filled, color=black]
+"849447"[fillcolor= "1",label= "Mathias\nLyons"]
+"12137"[fillcolor= "1",label= "Preston\nBarron"]
+"5308028"[fillcolor= "6",label= "Phone"]
+"4308028"[fillcolor= "5",label= "SSN"]
+"3308028"[fillcolor= "3",label= "Unsecured Loan"]
+"929108"[fillcolor= "1",label= "Ignacio\nHickman"]
+"2308028"[fillcolor= "2",label= "Savings"]
+"1308028"[fillcolor= "2",label= "Checking"]
+"6012137"[fillcolor= "7",label= "87647 Maple Circle\nNaperville, IL 60405"]
+"6849447"[fillcolor= "7",label= "56541 Cedar Trail\nRockford, IL 60403"]
+"5012137"[fillcolor= "6",label= "Phone"]
+"4012137"[fillcolor= "5",label= "SSN"]
+"4849447"[fillcolor= "5",label= "SSN"]
+"5929108"[fillcolor= "6",label= "Phone"]
+"3012137"[fillcolor= "3",label= "Unsecured Loan"]
+"3849447"[fillcolor= "4",label= "Credit Card"]
+"2012137"[fillcolor= "2",label= "Savings"]
+"2849447"[fillcolor= "2",label= "Savings"]
+"3929108"[fillcolor= "4",label= "Credit Card"]
+"6268110"[fillcolor= "7",label= "50788 East Third Heights\nChicago, IL 60401"]
+"1012137"[fillcolor= "2",label= "Checking"]
+"1849447"[fillcolor= "2",label= "Checking"]
+"2929108"[fillcolor= "2",label= "Savings"]
+"5268110"[fillcolor= "6",label= "Phone"]
+"268110"[fillcolor= "1",label= "Morgan\nBaxter"]
+"1929108"[fillcolor= "2",label= "Checking"]
+"4268110"[fillcolor= "5",label= "SSN"]
+"308028"[fillcolor= "1",label= "Jase\nOliver"]
+"3268110"[fillcolor= "3",label= "Unsecured Loan"]
+"2268110"[fillcolor= "2",label= "Savings"]
+"1268110"[fillcolor= "2",label= "Checking"]
+"849447" -> "6849447"
+"849447" -> "5012137"
+"849447" -> "4849447"
+"849447" -> "3849447"
+"849447" -> "2849447"
+"849447" -> "1849447"
+"12137" -> "6012137"
+"12137" -> "4012137"
+"12137" -> "5012137"
+"12137" -> "3012137"
+"12137" -> "2012137"
+"12137" -> "1012137"
+"929108" -> "6268110"
+"929108" -> "5929108"
+"929108" -> "4849447"
+"929108" -> "3929108"
+"929108" -> "2929108"
+"929108" -> "1929108"
+"268110" -> "4268110"
+"268110" -> "6268110"
+"268110" -> "3268110"
+"268110" -> "5268110"
+"268110" -> "1268110"
+"268110" -> "2268110"
+"308028" -> "6012137"
+"308028" -> "1308028"
+"308028" -> "3308028"
+"308028" -> "5308028"
+"308028" -> "4308028"
+"308028" -> "2308028"
+}
