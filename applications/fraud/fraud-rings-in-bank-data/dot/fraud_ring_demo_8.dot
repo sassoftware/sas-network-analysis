@@ -1,0 +1,65 @@
+digraph G {
+layout=sfdp; overlap=prism; overlap_scaling=-5; labelloc="t"; label="Connected Component 34119"; fontsize=30
+node[colorscheme=accent8, style=filled, color=black]
+"2445261"[fillcolor= "2",label= "Savings"]
+"5892965"[fillcolor= "6",label= "Phone"]
+"6034232"[fillcolor= "7",label= "16733 First Heights\nAurora, IL 60402"]
+"1445261"[fillcolor= "2",label= "Checking"]
+"5034232"[fillcolor= "6",label= "Phone"]
+"445261"[fillcolor= "1",label= "Jerry\nPetersen"]
+"3892965"[fillcolor= "4",label= "Credit Card"]
+"4034232"[fillcolor= "5",label= "SSN"]
+"2892965"[fillcolor= "2",label= "Savings"]
+"3034232"[fillcolor= "3",label= "Unsecured Loan"]
+"34232"[fillcolor= "1",label= "Tyson\nChung"]
+"1892965"[fillcolor= "2",label= "Checking"]
+"2034232"[fillcolor= "2",label= "Savings"]
+"1034232"[fillcolor= "2",label= "Checking"]
+"4765745"[fillcolor= "5",label= "SSN"]
+"892965"[fillcolor= "1",label= "Barrett\nLogan"]
+"3765745"[fillcolor= "4",label= "Credit Card"]
+"6206054"[fillcolor= "7",label= "54188 Park Way\nQuincy, IL 60417"]
+"2765745"[fillcolor= "2",label= "Savings"]
+"5206054"[fillcolor= "6",label= "Phone"]
+"206054"[fillcolor= "1",label= "Giselle\nCalderon"]
+"1765745"[fillcolor= "2",label= "Checking"]
+"4206054"[fillcolor= "5",label= "SSN"]
+"3206054"[fillcolor= "3",label= "Unsecured Loan"]
+"2206054"[fillcolor= "2",label= "Savings"]
+"765745"[fillcolor= "1",label= "Valeria\nParker"]
+"1206054"[fillcolor= "2",label= "Checking"]
+"6445261"[fillcolor= "7",label= "28863 Lake Fork\nWaukegan, IL 60409"]
+"4445261"[fillcolor= "5",label= "SSN"]
+"3445261"[fillcolor= "3",label= "Unsecured Loan"]
+"6892965"[fillcolor= "7",label= "80070 Fifth Route\nBelleville, IL 60415"]
+"445261" -> "6445261"
+"445261" -> "5034232"
+"445261" -> "4445261"
+"445261" -> "3445261"
+"445261" -> "2445261"
+"445261" -> "1445261"
+"34232" -> "4034232"
+"34232" -> "6034232"
+"34232" -> "3034232"
+"34232" -> "5034232"
+"34232" -> "2034232"
+"34232" -> "1034232"
+"892965" -> "6892965"
+"892965" -> "5892965"
+"892965" -> "4034232"
+"892965" -> "3892965"
+"892965" -> "2892965"
+"892965" -> "1892965"
+"206054" -> "4206054"
+"206054" -> "2206054"
+"206054" -> "3206054"
+"206054" -> "6206054"
+"206054" -> "5206054"
+"206054" -> "1206054"
+"765745" -> "6206054"
+"765745" -> "5034232"
+"765745" -> "3765745"
+"765745" -> "2765745"
+"765745" -> "1765745"
+"765745" -> "4765745"
+}

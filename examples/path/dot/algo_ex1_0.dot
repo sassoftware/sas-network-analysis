@@ -1,0 +1,20 @@
+digraph G {
+layout=dot; overlap=prism; overlap_scaling=-5
+"A"
+"B"
+"C"
+"D"
+"E"
+"F"
+"A" -> "B"[label= "1"]
+"A" -> "E"[label= "1"]
+"B" -> "C"[label= "1"]
+"C" -> "A"[label= "6"]
+"C" -> "D"[label= "1"]
+"D" -> "E"[label= "3"]
+"D" -> "F"[label= "1"]
+"E" -> "A"[label= "1"]
+"E" -> "B"[label= "1"]
+"E" -> "C"[label= "4"]
+"F" -> "E"[label= "1"]
+}

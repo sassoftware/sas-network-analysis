@@ -1,0 +1,9 @@
+digraph G {
+layout=dot
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"I23074"[fillcolor= "1",label= "Jett\nMccormick"]
+"I06380"[fillcolor= "1",label= "Enzo\nShea"]
+"R04P04S09C08"[fillcolor= "2",label= "S09C08"]
+"I06380" -> "R04P04S09C08"[label= "[04DEC2012,04DEC2032]"]
+"I23074" -> "R04P04S09C08"[label= "[19DEC2016,19DEC2026]"]
+}

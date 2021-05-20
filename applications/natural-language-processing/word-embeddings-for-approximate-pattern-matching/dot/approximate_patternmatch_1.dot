@@ -1,0 +1,7 @@
+digraph G {
+layout=sfdp
+"Person1" -> "Video1"
+"Person1" -> "Video2"
+"Person2" -> "Video1"
+"Person2" -> "Video2"
+}

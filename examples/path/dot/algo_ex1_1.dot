@@ -1,0 +1,21 @@
+digraph G {
+layout=dot
+node[colorscheme=paired8, color=black]
+"A"[color= "blue",penwidth= "3"]
+"B"[color= "black",penwidth= "1"]
+"C"[color= "black",penwidth= "1"]
+"D"[color= "blue",penwidth= "3"]
+"E"[color= "blue",penwidth= "3"]
+"F"[color= "black",penwidth= "1"]
+"A" -> "B"[color= "black",penwidth= "1",label= "1"]
+"A" -> "E"[color= "black",penwidth= "1",label= "1"]
+"B" -> "C"[color= "black",penwidth= "1",label= "1"]
+"C" -> "A"[color= "black",penwidth= "1",label= "6"]
+"C" -> "D"[color= "black",penwidth= "1",label= "1"]
+"D" -> "E"[color= "blue",penwidth= "3",label= "3"]
+"D" -> "F"[color= "black",penwidth= "1",label= "1"]
+"E" -> "A"[color= "blue",penwidth= "3",label= "1"]
+"E" -> "B"[color= "black",penwidth= "1",label= "1"]
+"E" -> "C"[color= "black",penwidth= "1",label= "4"]
+"F" -> "E"[color= "black",penwidth= "1",label= "1"]
+}

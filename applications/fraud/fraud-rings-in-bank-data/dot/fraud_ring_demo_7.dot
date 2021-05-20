@@ -1,0 +1,65 @@
+digraph G {
+layout=sfdp; overlap=prism; overlap_scaling=-5; labelloc="t"; label="Connected Component 26542"; fontsize=30
+node[colorscheme=accent8, style=filled, color=black]
+"2026600"[fillcolor= "2",label= "Savings"]
+"2288040"[fillcolor= "2",label= "Savings"]
+"6487047"[fillcolor= "7",label= "60726 Second Heights\nDecatur, IL 60412"]
+"1026600"[fillcolor= "2",label= "Checking"]
+"1288040"[fillcolor= "2",label= "Checking"]
+"5487047"[fillcolor= "6",label= "Phone"]
+"3487047"[fillcolor= "3",label= "Unsecured Loan"]
+"2487047"[fillcolor= "2",label= "Savings"]
+"1487047"[fillcolor= "2",label= "Checking"]
+"26600"[fillcolor= "1",label= "Saniya\nArroyo"]
+"288040"[fillcolor= "1",label= "Kaylin\nBeard"]
+"818030"[fillcolor= "1",label= "Danica\nKelley"]
+"772274"[fillcolor= "1",label= "Jefferson\nBrennan"]
+"6772274"[fillcolor= "7",label= "98400 Cedar Loop\nRockford, IL 60403"]
+"5772274"[fillcolor= "6",label= "Phone"]
+"4772274"[fillcolor= "5",label= "SSN"]
+"3772274"[fillcolor= "4",label= "Credit Card"]
+"4818030"[fillcolor= "5",label= "SSN"]
+"6026600"[fillcolor= "7",label= "48344 Washington Grove\nNaperville, IL 60405"]
+"2772274"[fillcolor= "2",label= "Savings"]
+"3818030"[fillcolor= "4",label= "Credit Card"]
+"5026600"[fillcolor= "6",label= "Phone"]
+"5288040"[fillcolor= "6",label= "Phone"]
+"487047"[fillcolor= "1",label= "Priscilla\nDelgado"]
+"1772274"[fillcolor= "2",label= "Checking"]
+"2818030"[fillcolor= "2",label= "Savings"]
+"4026600"[fillcolor= "5",label= "SSN"]
+"4288040"[fillcolor= "5",label= "SSN"]
+"1818030"[fillcolor= "2",label= "Checking"]
+"3026600"[fillcolor= "3",label= "Unsecured Loan"]
+"3288040"[fillcolor= "3",label= "Unsecured Loan"]
+"26600" -> "1026600"
+"26600" -> "5026600"
+"26600" -> "6026600"
+"26600" -> "4026600"
+"26600" -> "2026600"
+"26600" -> "3026600"
+"288040" -> "4288040"
+"288040" -> "2288040"
+"288040" -> "1288040"
+"288040" -> "6026600"
+"288040" -> "3288040"
+"288040" -> "5288040"
+"818030" -> "6772274"
+"818030" -> "5288040"
+"818030" -> "4818030"
+"818030" -> "3818030"
+"818030" -> "2818030"
+"818030" -> "1818030"
+"772274" -> "6772274"
+"772274" -> "5772274"
+"772274" -> "4772274"
+"772274" -> "3772274"
+"772274" -> "2772274"
+"772274" -> "1772274"
+"487047" -> "6487047"
+"487047" -> "4026600"
+"487047" -> "3487047"
+"487047" -> "2487047"
+"487047" -> "1487047"
+"487047" -> "5487047"
+}

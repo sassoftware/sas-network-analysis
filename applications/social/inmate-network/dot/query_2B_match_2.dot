@@ -1,0 +1,13 @@
+digraph G {
+layout=dot
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"R04P04S25"[fillcolor= "3",label= "P04S25"]
+"I23074"[fillcolor= "1",label= "Jett\nMccormick"]
+"I52186"[fillcolor= "1",label= "Esteban\nYates"]
+"R04P04S25C30"[fillcolor= "2",label= "S25C30"]
+"R04P04S25C04"[fillcolor= "2",label= "S25C04"]
+"I23074" -> "R04P04S25C04"[label= "[21DEC1999,21DEC2003]"]
+"I52186" -> "R04P04S25C30"[label= "[11JAN2000,11JAN2008]"]
+"R04P04S25C04" -> "R04P04S25"[label= ""]
+"R04P04S25C30" -> "R04P04S25"[label= ""]
+}

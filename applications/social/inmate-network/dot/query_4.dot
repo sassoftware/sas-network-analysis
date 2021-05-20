@@ -1,0 +1,9 @@
+digraph G {
+layout=dot
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"inmate2"[fillcolor= "1",label= "inmate2"]
+"inmate1"[fillcolor= "1",label= "inmate1"]
+"cell"[fillcolor= "2",label= "cell"]
+"inmate1" -> "cell"
+"inmate2" -> "cell"
+}

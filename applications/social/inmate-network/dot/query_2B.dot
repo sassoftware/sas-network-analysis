@@ -1,0 +1,13 @@
+digraph G {
+layout=dot
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"section"[fillcolor= "3",label= "section"]
+"mobBoss"[fillcolor= "1",label= "Jett\nMccormick"]
+"inmate2"[fillcolor= "1",label= "inmate2"]
+"cell2"[fillcolor= "2",label= "cell2"]
+"cell1"[fillcolor= "2",label= "cell1"]
+"cell1" -> "section"
+"cell2" -> "section"
+"inmate2" -> "cell2"
+"mobBoss" -> "cell1"
+}

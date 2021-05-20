@@ -1,0 +1,77 @@
+digraph G {
+layout=sfdp; overlap=prism; overlap_scaling=-5; labelloc="t"; label="Connected Component 198291"; fontsize=30
+node[colorscheme=accent8, style=filled, color=black]
+"3370795"[fillcolor= "3",label= "Unsecured Loan"]
+"4202981"[fillcolor= "5",label= "SSN"]
+"207857"[fillcolor= "1",label= "Camden\nJenkins"]
+"2370795"[fillcolor= "2",label= "Savings"]
+"3202981"[fillcolor= "3",label= "Unsecured Loan"]
+"1370795"[fillcolor= "2",label= "Checking"]
+"2202981"[fillcolor= "2",label= "Savings"]
+"5637403"[fillcolor= "6",label= "Phone"]
+"1202981"[fillcolor= "2",label= "Checking"]
+"4637403"[fillcolor= "5",label= "SSN"]
+"6207857"[fillcolor= "7",label= "20994 Oak Lane\nBelleville, IL 60415"]
+"686693"[fillcolor= "1",label= "Caroline\nSchneider"]
+"3637403"[fillcolor= "4",label= "Credit Card"]
+"5207857"[fillcolor= "6",label= "Phone"]
+"2637403"[fillcolor= "2",label= "Savings"]
+"4207857"[fillcolor= "5",label= "SSN"]
+"1637403"[fillcolor= "2",label= "Checking"]
+"3207857"[fillcolor= "3",label= "Unsecured Loan"]
+"2207857"[fillcolor= "2",label= "Savings"]
+"1207857"[fillcolor= "2",label= "Checking"]
+"6686693"[fillcolor= "7",label= "69949 Hill Alley\nChampaign, IL 60410"]
+"4956148"[fillcolor= "5",label= "SSN"]
+"3956148"[fillcolor= "4",label= "Credit Card"]
+"4686693"[fillcolor= "5",label= "SSN"]
+"370795"[fillcolor= "1",label= "Asia\nStevens"]
+"956148"[fillcolor= "1",label= "Tiara\nDennis"]
+"2956148"[fillcolor= "2",label= "Savings"]
+"3686693"[fillcolor= "4",label= "Credit Card"]
+"1956148"[fillcolor= "2",label= "Checking"]
+"2686693"[fillcolor= "2",label= "Savings"]
+"1686693"[fillcolor= "2",label= "Checking"]
+"202981"[fillcolor= "1",label= "Conrad\nWade"]
+"5370795"[fillcolor= "6",label= "Phone"]
+"6202981"[fillcolor= "7",label= "2498 Maple Loop\nNaperville, IL 60405"]
+"637403"[fillcolor= "1",label= "Javion\nHartman"]
+"4370795"[fillcolor= "5",label= "SSN"]
+"5202981"[fillcolor= "6",label= "Phone"]
+"207857" -> "4207857"
+"207857" -> "2207857"
+"207857" -> "1207857"
+"207857" -> "6207857"
+"207857" -> "5207857"
+"207857" -> "3207857"
+"686693" -> "6686693"
+"686693" -> "4686693"
+"686693" -> "3686693"
+"686693" -> "2686693"
+"686693" -> "1686693"
+"686693" -> "5207857"
+"370795" -> "6202981"
+"370795" -> "5370795"
+"370795" -> "3370795"
+"370795" -> "4370795"
+"370795" -> "2370795"
+"370795" -> "1370795"
+"956148" -> "6686693"
+"956148" -> "5370795"
+"956148" -> "4956148"
+"956148" -> "3956148"
+"956148" -> "2956148"
+"956148" -> "1956148"
+"202981" -> "6202981"
+"202981" -> "4202981"
+"202981" -> "3202981"
+"202981" -> "5202981"
+"202981" -> "2202981"
+"202981" -> "1202981"
+"637403" -> "6202981"
+"637403" -> "5637403"
+"637403" -> "4637403"
+"637403" -> "3637403"
+"637403" -> "2637403"
+"637403" -> "1637403"
+}

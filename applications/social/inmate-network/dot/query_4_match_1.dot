@@ -1,0 +1,13 @@
+graph G {
+layout=sfdp
+node[colorscheme=paired8, style=filled, color=black, fixedSize=true, width=1.4, height=.8]
+"I46914"[fillcolor= "1",label= "Dallas
+Weeks"]
+"I32876"[fillcolor= "1",label= "Jude
+Yang"]
+"I02537"[fillcolor= "1",label= "Gerardo
+Fuller"]
+"I02537" -- "I32876"[label= "Cell:S02C19[29NOV2013,02DEC2015]"]
+"I02537" -- "I46914"[label= "Cell:S02C19[03DEC2015,29NOV2018]"]
+"I32876" -- "I46914"[label= "Cell:S02C19[01DEC2018,01JUN2019]"]
+}

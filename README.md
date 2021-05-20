@@ -29,8 +29,7 @@ This repository contains examples and demonstrations of the network analysis cap
 ### Installation
 
 **Quick Start**
-- To clone with submodule dependency, use `git clone --recursive <REPO_URL>`
-   - or if you cloned without `--recursive`, run `git submodule update --init`
+- To clone this repository, use `git clone <REPO_URL>`
 - Modify [common/conf/environment.txt](common/conf/environment.txt) with your CAS server information
    - provided by your SAS Viya system admistrator
 - Launch a SAS Studio window to run SAS scripts (*.sas)

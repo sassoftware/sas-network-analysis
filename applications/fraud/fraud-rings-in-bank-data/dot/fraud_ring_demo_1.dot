@@ -1,0 +1,113 @@
+digraph G {
+layout=sfdp; overlap=prism; overlap_scaling=-5; labelloc="t"; label="Connected Component 141151"; fontsize=30
+node[colorscheme=accent8, style=filled, color=black]
+"267041"[fillcolor= "1",label= "Janelle\nOrozco"]
+"1153051"[fillcolor= "2",label= "Checking"]
+"2473554"[fillcolor= "2",label= "Savings"]
+"5143447"[fillcolor= "6",label= "Phone"]
+"5324556"[fillcolor= "6",label= "Phone"]
+"1473554"[fillcolor= "2",label= "Checking"]
+"4143447"[fillcolor= "5",label= "SSN"]
+"4324556"[fillcolor= "5",label= "SSN"]
+"4783933"[fillcolor= "5",label= "SSN"]
+"3143447"[fillcolor= "3",label= "Unsecured Loan"]
+"3324556"[fillcolor= "3",label= "Unsecured Loan"]
+"3783933"[fillcolor= "4",label= "Credit Card"]
+"4503273"[fillcolor= "5",label= "SSN"]
+"6267041"[fillcolor= "7",label= "55629 Second Heights\nRock Island, IL 60400"]
+"783933"[fillcolor= "1",label= "Bradley\nParrish"]
+"2143447"[fillcolor= "2",label= "Savings"]
+"2324556"[fillcolor= "2",label= "Savings"]
+"2783933"[fillcolor= "2",label= "Savings"]
+"3503273"[fillcolor= "4",label= "Credit Card"]
+"5267041"[fillcolor= "6",label= "Phone"]
+"473554"[fillcolor= "1",label= "Chase\nBond"]
+"1143447"[fillcolor= "2",label= "Checking"]
+"1324556"[fillcolor= "2",label= "Checking"]
+"1783933"[fillcolor= "2",label= "Checking"]
+"2503273"[fillcolor= "2",label= "Savings"]
+"4267041"[fillcolor= "5",label= "SSN"]
+"1503273"[fillcolor= "2",label= "Checking"]
+"3267041"[fillcolor= "3",label= "Unsecured Loan"]
+"5639219"[fillcolor= "6",label= "Phone"]
+"639219"[fillcolor= "1",label= "Clare\nSalas"]
+"2267041"[fillcolor= "2",label= "Savings"]
+"4639219"[fillcolor= "5",label= "SSN"]
+"143447"[fillcolor= "1",label= "Erik\nMayo"]
+"324556"[fillcolor= "1",label= "Melvin\nCarey"]
+"1267041"[fillcolor= "2",label= "Checking"]
+"3639219"[fillcolor= "4",label= "Credit Card"]
+"2639219"[fillcolor= "2",label= "Savings"]
+"1639219"[fillcolor= "2",label= "Checking"]
+"302942"[fillcolor= "1",label= "Arely\nSantos"]
+"5302942"[fillcolor= "6",label= "Phone"]
+"6153051"[fillcolor= "7",label= "49548 NorthEast Lake Circle\nDecatur, IL 60412"]
+"503273"[fillcolor= "1",label= "Jaiden\nMcdowell"]
+"4302942"[fillcolor= "5",label= "SSN"]
+"5153051"[fillcolor= "6",label= "Phone"]
+"3302942"[fillcolor= "3",label= "Unsecured Loan"]
+"4153051"[fillcolor= "5",label= "SSN"]
+"5473554"[fillcolor= "6",label= "Phone"]
+"2302942"[fillcolor= "2",label= "Savings"]
+"3153051"[fillcolor= "3",label= "Unsecured Loan"]
+"4473554"[fillcolor= "5",label= "SSN"]
+"153051"[fillcolor= "1",label= "Mario\nHartman"]
+"1302942"[fillcolor= "2",label= "Checking"]
+"2153051"[fillcolor= "2",label= "Savings"]
+"3473554"[fillcolor= "3",label= "Unsecured Loan"]
+"6143447"[fillcolor= "7",label= "91086 Fifth Trail\nSpringfield, IL 60406"]
+"267041" -> "6267041"
+"267041" -> "4267041"
+"267041" -> "3267041"
+"267041" -> "2267041"
+"267041" -> "1267041"
+"267041" -> "5267041"
+"783933" -> "6143447"
+"783933" -> "5324556"
+"783933" -> "4783933"
+"783933" -> "3783933"
+"783933" -> "2783933"
+"783933" -> "1783933"
+"473554" -> "6143447"
+"473554" -> "4473554"
+"473554" -> "2473554"
+"473554" -> "1473554"
+"473554" -> "3473554"
+"473554" -> "5473554"
+"639219" -> "6267041"
+"639219" -> "5639219"
+"639219" -> "4639219"
+"639219" -> "3639219"
+"639219" -> "2639219"
+"639219" -> "1639219"
+"143447" -> "5143447"
+"143447" -> "4143447"
+"143447" -> "2143447"
+"143447" -> "6143447"
+"143447" -> "1143447"
+"143447" -> "3143447"
+"324556" -> "1324556"
+"324556" -> "4324556"
+"324556" -> "2324556"
+"324556" -> "3324556"
+"324556" -> "6267041"
+"324556" -> "5324556"
+"302942" -> "2302942"
+"302942" -> "1302942"
+"302942" -> "6267041"
+"302942" -> "4302942"
+"302942" -> "5302942"
+"302942" -> "3302942"
+"503273" -> "6153051"
+"503273" -> "5473554"
+"503273" -> "4503273"
+"503273" -> "3503273"
+"503273" -> "2503273"
+"503273" -> "1503273"
+"153051" -> "6153051"
+"153051" -> "2153051"
+"153051" -> "5153051"
+"153051" -> "4153051"
+"153051" -> "1153051"
+"153051" -> "3153051"
+}
