@@ -1,0 +1,5 @@
+graph G {
+layout=neato; start=6
+node[shape=circle,fixedsize=true,width=.6]
+"B" -- "C"[label= "1"]
+}

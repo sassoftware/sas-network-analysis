@@ -1,0 +1,368 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" baseProfile="full" version="1.1" id="SVGMain" onload='SVGMain_Init("SVGMain")' viewBox="-1 -1 265 433">
+<desc></desc>
+<defs>
+<clipPath id="SVGMain_clipPage1">
+<rect x="-1" y="-1" width="265" height="433"></rect>
+</clipPath>
+</defs>
+<g id="SVGMain_Page1" clip-path="url(#SVGMain_clipPage1)">
+<rect x="0" y="0" width="264" height="432" style="fill: #FFFFFF; stroke: #FFFFFF; stroke-width: 1; stroke-linejoin: round; "></rect>
+<rect x="8" y="7" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="7" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="25.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font5', 'Albany AMT', sans-serif; font-size: 11px; font-weight: bold; white-space: pre; ">from</text>
+<rect x="59" y="7" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="7" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="25.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font5', 'Albany AMT', sans-serif; font-size: 11px; font-weight: bold; white-space: pre; ">to</text>
+<rect x="136" y="7" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="7" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="7" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="143.0" y="25.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font5', 'Albany AMT', sans-serif; font-size: 11px; font-weight: bold; white-space: pre; ">commonNeighbors</text>
+<rect x="8" y="33" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="33" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="51.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Onion</text>
+<rect x="59" y="33" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="33" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="51.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Salt</text>
+<rect x="136" y="33" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="33" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="33" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="51.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">5</text>
+<rect x="8" y="59" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="59" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="77.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Garlic</text>
+<rect x="59" y="59" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="59" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="77.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Onion</text>
+<rect x="136" y="59" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="59" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="59" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="77.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">4</text>
+<rect x="8" y="85" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="85" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="103.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Garlic</text>
+<rect x="59" y="85" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="85" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="103.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Salt</text>
+<rect x="136" y="85" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="85" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="85" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="103.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">4</text>
+<rect x="8" y="111" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="111" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="129.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">OliveOil</text>
+<rect x="59" y="111" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="111" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="129.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Onion</text>
+<rect x="136" y="111" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="111" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="111" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="129.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">4</text>
+<rect x="8" y="137" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="137" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="155.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">OliveOil</text>
+<rect x="59" y="137" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="137" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="155.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Salt</text>
+<rect x="136" y="137" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="137" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="137" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="155.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">4</text>
+<rect x="8" y="163" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="163" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="181.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">OliveOil</text>
+<rect x="59" y="163" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="163" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="181.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">TomatoPaste</text>
+<rect x="136" y="163" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="163" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="163" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="181.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">4</text>
+<rect x="8" y="189" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="189" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="207.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Onion</text>
+<rect x="59" y="189" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="189" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="207.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Tomato</text>
+<rect x="136" y="189" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="189" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="189" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="207.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">4</text>
+<rect x="8" y="215" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="215" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="233.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Onion</text>
+<rect x="59" y="215" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="215" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="233.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">TomatoPaste</text>
+<rect x="136" y="215" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="215" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="215" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="233.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">4</text>
+<rect x="8" y="241" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="241" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="259.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Salt</text>
+<rect x="59" y="241" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="241" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="259.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Tomato</text>
+<rect x="136" y="241" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="241" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="241" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="259.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">4</text>
+<rect x="8" y="267" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="267" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="285.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Salt</text>
+<rect x="59" y="267" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="267" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="285.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">TomatoPaste</text>
+<rect x="136" y="267" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="267" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="267" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="285.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">4</text>
+<rect x="8" y="293" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="293" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="311.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Garlic</text>
+<rect x="59" y="293" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="293" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="311.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">OliveOil</text>
+<rect x="136" y="293" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="293" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="293" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="311.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">3</text>
+<rect x="8" y="319" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="319" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="337.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Garlic</text>
+<rect x="59" y="319" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="319" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="337.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Tomato</text>
+<rect x="136" y="319" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="319" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="319" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="337.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">3</text>
+<rect x="8" y="345" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="345" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="363.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Garlic</text>
+<rect x="59" y="345" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="345" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="363.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">TomatoPaste</text>
+<rect x="136" y="345" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="345" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="345" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="363.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">3</text>
+<rect x="8" y="371" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="371" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="389.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">OliveOil</text>
+<rect x="59" y="371" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="371" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="389.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Tomato</text>
+<rect x="136" y="371" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="371" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="371" width="1" height="26" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="389.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">3</text>
+<rect x="8" y="397" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="8" y="423" width="50" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="7" y="397" width="1" height="27" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="15.0" y="415.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">Tomato</text>
+<rect x="59" y="397" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="59" y="423" width="76" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="58" y="397" width="1" height="27" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="66.0" y="415.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">TomatoPaste</text>
+<rect x="136" y="397" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="136" y="423" width="120" height="1" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="135" y="397" width="1" height="27" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<rect x="256" y="397" width="1" height="27" style="fill: #919191; stroke: #919191; stroke-width: 1; "></rect>
+<text x="243.0" y="415.0" style="fill: #000000; font-family: 'SVGMain_Albany AMT Font6', 'Albany AMT', sans-serif; font-size: 11px; white-space: pre; ">3</text>
+</g>
+<defs>
+<style type="text/css"><![CDATA[
+]]></style>
+</defs>
+<defs>
+<style type="text/css"><![CDATA[
+  @font-face {
+      font-family: "SVGMain_Albany AMT Font5";
+      font-weight: bold;
+      src: url("#SVGMain_Font5") format("svg")
+      }
+]]></style>
+<font id="SVGMain_Font5" horiz-adv-x="3648" >
+   <font-face      font-family="SVGMain_Albany AMT Font5"
+    font-weight="bold"    units-per-em="2048" ascent="1854" descent="-434" >
+      <font-face-src>
+         <font-face-name name="SVGMain_Albany AMT Font5"></font-face-name>
+      </font-face-src>
+   </font-face>
+<missing-glyph><path d="M0 0v4992h3456v-4992h-3456" fill="none"></path>
+</missing-glyph>
+<glyph unicode="&#40;" horiz-adv-x="680" 
+d="M640 -252L524 -341Q294 -107 189 104 T85 576Q85 832 187 1042 T524 1493L640 1404Q517 1245 450 
+1024 T384 578Q384 328 448 112 T640 -252Z" ></glyph>
+<glyph unicode="&#47;" horiz-adv-x="552" 
+d="M565 1450L208 0L-10 0L346 1450L565 1450Z" ></glyph>
+<glyph unicode="&#104;" horiz-adv-x="1232" 
+d="M1109 0L810 0L810 594Q810 810 662 810 Q530 810 426 640 L426 0L128 0L128 1493L426 
+1493L426 896Q555 1066 759 1066 Q919 1066 1014 970 T1109 700Z" ></glyph>
+<glyph unicode="&#65;" horiz-adv-x="1402" 
+d="M1493 0L1172 0L1027 384L466 384L320 0L0 0L594 1450L898 1450L1493 0ZM930 640L746 
+1124L562 640L930 640Z" ></glyph>
+<glyph unicode="&#103;" horiz-adv-x="1232" 
+d="M1109 48Q1109 -180 965 -303 T557 -426Q321 -426 128 -298 L192 -85Q365 -170 536 -170 Q668 -170 739 
+-111 T810 60L810 128Q692 0 513 0 Q325 0 205 141 T85 521Q85 774 206 920 T525 1066Q
+605 1066 683 1031 T810 938L810 1066L1109 1066L1109 48ZM810 384L810 682Q722 810 594 810 Q502 
+810 443 735 T384 528Q384 400 441 328 T594 256Q719 256 810 384Z" ></glyph>
+<glyph unicode="&#102;" horiz-adv-x="680" 
+d="M768 1408L704 1194Q619 1237 562 1237 Q518 1237 494 1203 T469 1107L469 1066L682 1066L682 853L469 
+853L469 0L170 0L170 853L0 853L0 1066L170 1066L170 1158Q170 1321 265 1407 T538 1493Q636 
+1493 768 1408Z" ></glyph>
+<glyph unicode="&#114;" horiz-adv-x="807" 
+d="M810 1024L746 768Q706 810 662 810 Q613 810 567 780 T474 673T426 582L426 0L128 0L128 
+1066L426 1066L426 853Q482 970 540 1018 T682 1066Q759 1066 810 1024Z" ></glyph>
+<glyph unicode="&#111;" horiz-adv-x="1232" 
+d="M618 1066Q858 1066 1005 925 T1152 533Q1152 282 1005 141 T618 0Q377 0 231 141 T85 533Q85 
+784 231 925 T618 1066ZM618 256Q724 256 789 331 T853 533Q853 660 790 735 T618 810Q505 810 
+444 738 T384 533Q384 404 445 330 T618 256Z" ></glyph>
+<glyph unicode="&#109;" horiz-adv-x="1827" 
+d="M1706 0L1408 0L1408 594Q1408 721 1376 766 T1282 810Q1175 810 1066 682 L1066 0L768 0L768 
+594Q768 730 737 770 T646 810Q538 810 426 640 L426 0L128 0L128 1066L426 1066L426 896Q
+550 1066 747 1066 Q954 1066 1041 896 Q1173 1066 1384 1066 Q1539 1066 1623 972 T1706 700Z" ></glyph>
+<glyph unicode="&#116;" horiz-adv-x="680" 
+d="M725 85Q633 0 527 0 Q353 0 262 84 T170 326L170 810L42 810L42 1066L170 1066L170 
+1408L469 1408L469 1066L682 1066L682 810L469 810L469 392Q469 328 494 292 T563 256Q614 256 661 
+298 Z" ></glyph>
+<glyph unicode="&#99;" horiz-adv-x="1147" 
+d="M1066 128Q892 0 664 0 Q396 0 240 144 T85 535Q85 780 242 923 T666 1066Q877 1066 1066 
+938 L1024 725Q848 810 679 810 Q561 810 472 739 T384 534Q384 400 471 328 T675 256Q857 256 
+1024 341 Z" ></glyph>
+<glyph unicode="&#110;" horiz-adv-x="1232" 
+d="M1109 0L810 0L810 594Q810 810 662 810 Q530 810 426 658 L426 0L128 0L128 1066L426 
+1066L426 896Q555 1066 759 1066 Q919 1066 1014 970 T1109 700Z" ></glyph>
+<glyph unicode="&#78;" horiz-adv-x="1487" 
+d="M1365 0L1022 0L384 1047L384 0L128 0L128 1450L470 1450L1109 401L1109 1450L1365 1450L1365 
+0Z" ></glyph>
+<glyph unicode="&#101;" horiz-adv-x="1147" 
+d="M1066 128Q888 0 655 0 Q394 0 239 146 T85 535Q85 774 223 920 T590 1066Q800 1066 933 
+916 T1066 499L1066 426L384 426Q398 353 475 304 T661 256Q832 256 1002 341 ZM768 640Q757 738 
+706 795 T582 853Q504 853 449 795 T384 640Z" ></glyph>
+<glyph unicode="&#105;" horiz-adv-x="552" 
+d="M276 1493Q336 1493 381 1449 T426 1342Q426 1282 382 1238 T276 1194Q214 1194 171 1238 T128 1342Q128 
+1405 171 1449 T276 1493ZM426 0L128 0L128 1066L426 1066L426 0Z" ></glyph>
+<glyph unicode="&#98;" horiz-adv-x="1232" 
+d="M426 914Q474 982 557 1024 T726 1066Q912 1066 1032 926 T1152 554Q1152 297 1032 148 T726 0Q537 
+0 426 142 L426 0L128 0L128 1493L426 1493L426 914ZM426 374Q513 256 646 256 Q736 256 
+795 332 T853 537Q853 670 794 740 T643 810Q520 810 426 684 Z" ></glyph>
+<glyph unicode="&#115;" horiz-adv-x="1147" 
+d="M960 725Q779 810 609 810 Q426 810 426 762 Q426 738 477 723 T650 664Q894 568 980 496 T1066 
+319Q1066 0 548 0 Q312 0 85 85 L149 341Q334 256 530 256 Q768 256 768 314 Q768 336 
+713 371 T530 446Q311 510 219 583 T128 761Q128 901 249 983 T593 1066Q806 1066 1024 981 Z" ></glyph>
+</font>
+<style type="text/css"><![CDATA[
+  @font-face {
+      font-family: "SVGMain_Albany AMT Font6";
+      src: url("#SVGMain_Font6") format("svg")
+      }
+]]></style>
+<font id="SVGMain_Font6" horiz-adv-x="3776" >
+   <font-face      font-family="SVGMain_Albany AMT Font6"
+    units-per-em="2048" ascent="1854" descent="-434" >
+      <font-face-src>
+         <font-face-name name="SVGMain_Albany AMT Font6"></font-face-name>
+      </font-face-src>
+   </font-face>
+<missing-glyph><path d="M0 0v4992h3456v-4992h-3456" fill="none"></path>
+</missing-glyph>
+<glyph unicode="&#40;" horiz-adv-x="680" 
+d="M597 -294L524 -341Q317 -110 222 101 T128 576Q128 838 222 1050 T524 1493L597 1446Q444 1242 371 
+1034 T298 578Q298 332 369 124 T597 -294Z" ></glyph>
+<glyph unicode="&#47;" horiz-adv-x="552" 
+d="M565 1450L122 0L-10 0L432 1450L565 1450Z" ></glyph>
+<glyph unicode="&#104;" horiz-adv-x="1147" 
+d="M1024 0L853 0L853 650Q853 766 790 831 T620 896Q451 896 298 725 L298 0L128 0L128 
+1493L298 1493L298 896Q470 1066 662 1066 Q830 1066 927 973 T1024 708Z" ></glyph>
+<glyph unicode="&#65;" horiz-adv-x="1360" 
+d="M1333 0L1153 0L946 512L375 512L169 0L-10 0L573 1450L749 1450L1333 0ZM878 682L661 
+1222L444 682L878 682Z" ></glyph>
+<glyph unicode="&#103;" horiz-adv-x="1147" 
+d="M1024 -22Q1024 -220 904 -323 T562 -426Q336 -426 128 -298 L192 -170Q395 -256 574 -256 Q706 -256 780 
+-187 T853 6L853 170Q736 0 538 0 Q328 0 206 147 T85 554Q85 782 211 924 T526 1066Q
+738 1066 853 938 L853 1066L1024 1066L1024 -22ZM853 361L853 768Q816 822 737 859 T566 896Q418 
+896 337 802 T256 538Q256 364 341 267 T573 170Q631 170 694 200 T805 285T853 341Z" ></glyph>
+<glyph unicode="&#79;" horiz-adv-x="1572" 
+d="M792 1450Q1112 1450 1303 1251 T1493 724Q1493 410 1300 205 T792 0Q474 0 279 205 T85 724Q85 
+1048 273 1249 T792 1450ZM791 170Q1040 170 1181 319 T1322 724Q1322 978 1180 1129 T791 1280Q542 1280 
+399 1129 T256 724Q256 470 395 320 T791 170Z" ></glyph>
+<glyph unicode="&#110;" horiz-adv-x="1147" 
+d="M1024 0L853 0L853 650Q853 766 790 831 T620 896Q451 896 298 725 L298 0L128 0L128 
+1066L298 1066L298 896Q470 1066 662 1066 Q830 1066 927 973 T1024 708Z" ></glyph>
+<glyph unicode="&#105;" horiz-adv-x="425" 
+d="M298 0L128 0L128 1066L298 1066L298 0ZM212 1493Q248 1493 273 1461 T298 1385Q298 1342 273 
+1311 T212 1280Q178 1280 153 1311 T128 1385Q128 1430 152 1462 T212 1493Z" ></glyph>
+<glyph unicode="&#111;" horiz-adv-x="1147" 
+d="M576 1066Q802 1066 934 920 T1066 533Q1066 292 934 146 T576 0Q349 0 217 145 T85 533Q85 
+776 217 921 T576 1066ZM576 170Q724 170 810 276 T896 533Q896 697 812 796 T576 896Q423 896 
+339 797 T256 533Q256 380 342 275 T576 170Z" ></glyph>
+<glyph unicode="&#83;" horiz-adv-x="1360" 
+d="M1109 1152Q1030 1207 912 1243 T690 1280Q531 1280 436 1223 T341 1078Q341 1015 406 965 T720 842Q885 
+793 987 749 T1164 628T1237 430Q1237 227 1075 113 T682 0Q378 0 128 149 L170 298Q429 170 
+674 170 Q846 170 956 238 T1066 416Q1066 484 1013 530 T882 603T672 676Q512 730 412 770 T241 
+885T170 1079Q170 1247 313 1349 T699 1450Q816 1450 950 1411 T1194 1301Z" ></glyph>
+<glyph unicode="&#97;" horiz-adv-x="1147" 
+d="M1077 0L906 0Q884 22 869 62 T853 128Q660 0 429 0 Q276 0 180 74 T85 282Q85 
+387 142 460 T314 573T606 625L853 640L853 668Q853 796 790 846 T569 896Q493 896 381 870 T
+192 810L128 981Q218 1019 348 1043 T587 1066Q810 1066 917 972 T1024 686L1024 248Q1024 84 1077 
+0ZM853 298L853 512Q616 500 542 493 T398 464T292 402T256 304Q256 244 310 207 T449 170Q
+557 170 671 206 T853 298Z" ></glyph>
+<glyph unicode="&#108;" horiz-adv-x="425" 
+d="M298 0L128 0L128 1493L298 1493L298 0Z" ></glyph>
+<glyph unicode="&#116;" horiz-adv-x="552" 
+d="M597 42Q497 0 437 0 Q298 0 234 73 T170 304L170 896L42 896L42 1066L170 1066L170 
+1365L341 1365L341 1066L554 1066L554 896L341 896L341 331Q341 170 461 170 Q513 170 576 170 Z" ></glyph>
+<glyph unicode="&#53;" horiz-adv-x="1147" 
+d="M341 905Q442 938 544 938 Q782 938 924 812 T1066 477Q1066 268 924 134 T551 0Q296 0 85 
+128 L139 298Q338 170 550 170 Q699 170 797 256 T896 477Q896 609 795 688 T538 768Q433 768 
+336 725 L170 758L170 1450L1024 1450L1024 1280L341 1280L341 905Z" ></glyph>
+<glyph unicode="&#71;" horiz-adv-x="1572" 
+d="M1408 150Q1176 0 844 0 Q498 0 291 203 T85 724Q85 1044 286 1247 T812 1450Q1124 1450 1365 
+1258 L1280 1109Q1059 1280 801 1280 Q549 1280 402 1122 T256 724Q256 466 416 318 T862 170Q1097 170 
+1237 250 L1237 554L853 554L853 725L1408 725L1408 150Z" ></glyph>
+<glyph unicode="&#114;" horiz-adv-x="680" 
+d="M682 1024L618 853Q574 896 538 896 Q486 896 438 852 T345 724T298 638L298 0L128 0L128 
+1066L298 1066L298 810Q371 960 428 1013 T562 1066Q634 1066 682 1024Z" ></glyph>
+<glyph unicode="&#99;" horiz-adv-x="1020" 
+d="M85 535Q85 786 230 926 T591 1066Q774 1066 938 938 L888 810Q744 896 590 896 Q444 896 350 
+797 T256 534Q256 368 349 269 T584 170Q728 170 886 256 L938 128Q771 0 585 0 Q363 0 
+224 146 T85 535Z" ></glyph>
+<glyph unicode="&#52;" horiz-adv-x="1147" 
+d="M1066 298L853 298L853 0L682 0L682 298L42 298L42 469L674 1450L853 1450L853 469L1066 
+469L1066 298ZM682 469L682 1157L240 469L682 469Z" ></glyph>
+<glyph unicode="&#118;" horiz-adv-x="1062" 
+d="M1034 1066L613 0L453 0L32 1066L212 1066L533 252L854 1066L1034 1066Z" ></glyph>
+<glyph unicode="&#101;" horiz-adv-x="1147" 
+d="M1109 170Q876 0 654 0 Q386 0 235 143 T85 535Q85 773 221 919 T591 1066Q800 1066 933 
+928 T1066 558L1066 512L256 512Q264 346 363 258 T638 170Q845 170 1045 298 ZM896 640Q882 757 
+795 826 T589 896Q458 896 370 829 T256 640Z" ></glyph>
+<glyph unicode="&#84;" horiz-adv-x="1190" 
+d="M1152 1280L682 1280L682 0L512 0L512 1280L42 1280L42 1450L1152 1450L1152 1280Z" ></glyph>
+<glyph unicode="&#109;" horiz-adv-x="1700" 
+d="M1578 0L1408 0L1408 650Q1408 772 1357 834 T1204 896Q1140 896 1068 862 T936 768Q938 751 938 
+709 L938 0L768 0L768 650Q768 772 720 834 T576 896Q432 896 298 725 L298 0L128 0L
+128 1066L298 1066L298 896Q438 1066 620 1066 Q835 1066 910 896 Q1055 1066 1249 1066 Q1408 1066 1493 
+974 T1578 708Z" ></glyph>
+<glyph unicode="&#80;" horiz-adv-x="1360" 
+d="M170 1450L754 1450Q972 1450 1104 1333 T1237 1035Q1237 851 1106 724 T747 597L341 597L341 0L170 
+0L170 1450ZM341 768L737 768Q894 768 980 838 T1066 1032Q1066 1142 979 1211 T737 1280L341 1280L
+341 768Z" ></glyph>
+<glyph unicode="&#115;" horiz-adv-x="1020" 
+d="M832 810Q668 896 512 896 Q388 896 322 867 T256 786Q256 750 305 726 T448 668L588 618Q788 
+546 863 478 T938 306Q938 162 822 81 T510 0Q278 0 85 85 L149 256Q328 170 506 170 Q
+768 170 768 300 Q768 350 706 385 T465 483Q322 536 267 556 T169 610T105 685T85 779Q85 
+908 196 987 T516 1066Q604 1066 709 1044 T896 981Z" ></glyph>
+<glyph unicode="&#51;" horiz-adv-x="1147" 
+d="M757 779Q880 741 952 648 T1024 430Q1024 252 877 126 T509 0Q254 0 42 128 L96 298Q294 
+170 509 170 Q656 170 755 244 T853 432Q853 554 756 618 T473 682L426 682L426 853Q810 853 
+810 1062 Q810 1164 728 1222 T505 1280Q324 1280 140 1194 L85 1365Q289 1450 504 1450 Q725 1450 853 
+1346 T981 1066Q981 871 757 783 Z" ></glyph>
+</font>
+</defs>
+<script type="text/ecmascript"><![CDATA[
+function SVGMain_Init(anchor) {
+}
+]]></script>
+</svg>

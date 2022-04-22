@@ -13,17 +13,31 @@ run;
 
 %put CAS_SERVER_HOST="&CAS_SERVER_HOST";
 %put CAS_SERVER_PORT="&CAS_SERVER_PORT";
+%put CAS_SERVER_DATADIR="&CAS_SERVER_DATADIR";
 
 /******************/
 /* CAS Connection */
 /******************/
-%macro reconnect(host=&CAS_SERVER_HOST, port=&CAS_SERVER_PORT, sessionName=mySession, timeout=1800);
+%macro reconnect(host=&CAS_SERVER_HOST, port=&CAS_SERVER_PORT, datadir=&CAS_SERVER_DATADIR, datasubdir=, caslib=CASUSER, sessionName=mySession, timeout=1800);
    %terminateAll();
    
    /** Connect to the Cas Server **/
    options cashost="&host" casport=&port;
    cas &sessionName sessopts=(caslib=casuser timeout=&timeout locale="en_US");
-   libname mycas cas sessref=&sessionName caslib="CASUSER";
+   %if "&CASLIB"="CASUSER" %then %do;
+      libname mycas cas sessref=&sessionName caslib="CASUSER";
+   %end;
+   %else %do;
+      %let path=&CAS_SERVER_DATADIR&datasubdir;
+      proc cas;
+         addcaslib  /
+            activeOnAdd=true caslib="&CASLIB"
+            datasource={srctype="path"}
+            path="&path";
+         run;
+      quit;
+      libname mycas cas sessref=&sessionName caslib="&CASLIB";
+   %end;
 %mend;
 
 %macro terminateAll();
