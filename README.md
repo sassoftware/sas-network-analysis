@@ -5,12 +5,32 @@ This is a home for network-related demos and examples.
 ## Table of Contents
 
 - [Applications](applications/)
-    -  [Fraud](applications/fraud)
+    - [Dynamic Communities](applications/dynamic_communities)
+        - [Dynamic Communities in Stock Market Networks](applications/dynamic_communities/Dynamic%20communities%20in%20stock%20market%20networks.ipynb)
+    - [Fraud](applications/fraud)
         - [Fraud Rings in Bank Data](applications/fraud/fraud-rings-in-bank-data)
-    -  [Natural Language Processing](applications/natural-language-processing)
+    - [Hartford Drug User Network](applications/hartford)
+        - [Hartford Drug User Network Analysis](applications/hartford/notebooks/Hartford%20Drug%20User%20Network%20Analysis.ipynb)
+    - [Health](applications/health)
+        - [Hetionet](applications/health/hetionet)
+    - [Knowledge Graph](applications/knowledge-graph)
+        - [Airline Routes](applications/knowledge-graph/airline_routes)
+    - [Natural Language Processing](applications/natural-language-processing)
         - [Word Embeddings for Approximate Pattern Matching](applications/natural-language-processing/word-embeddings-for-approximate-pattern-matching)
-    -  [Social](applications/social)
+    - [OSM](applications/osm)
+        - [Road Network TSP](applications/osm/Road_Network_TSP.ipynb)
+    - [Social](applications/social)
         - [Inmate Network](applications/social/inmate-network)
+    - [Solar Eclipse](applications/solar_eclipse)
+        - [Solar Eclipse Network Analysis](applications/solar_eclipse/python/solar_eclipse.ipynb)
+- [Examples](examples/)
+    - [Clique](examples/clique)
+    - [Community Detection](examples/community)
+    - [K-Core](examples/kcore)
+    - [PageRank](examples/pagerank)
+    - [Path Analysis](examples/path)
+    - [Projection](examples/projection)
+    - [Shortest Path](examples/shortestPath)
 
 ## Overview
 
@@ -31,7 +51,7 @@ This repository contains examples and demonstrations of the network analysis cap
 **Quick Start**
 - To clone this repository, use `git clone <REPO_URL>`
 - Modify [common/conf/environment.txt](common/conf/environment.txt) with your CAS server information
-   - provided by your SAS Viya system admistrator
+   - provided by your SAS Viya system administrator
 - Launch a SAS Studio window to run SAS scripts (*.sas)
 - Or, launch a jupyter notebook to run notebooks (*.ipynb)
 
@@ -53,14 +73,14 @@ This repository contains examples and demonstrations of the network analysis cap
    - Navigate to the directory where you cloned this repository, and then navigate to the sas/ directory of the demo you wish to run.
    - Open the .sas script and run by clicking the run icon or pressing F3.
 - If you intend to run the Jupyter notebook versions of these demos:
-   - First ensure that you are have the required python packages installed by using `conda install -c conda-forge -c sas-institute --file requirements.txt` from a terminal window (see the above details section for more context).
+   - First ensure that you have the required python packages installed by using `conda install -c conda-forge -c sas-institute --file requirements.txt` from a terminal window (see the above details section for more context).
    - launch a jupyter notebook session by using `jupyter notebook start` from a terminal window.
    - after launching, use a web browser to connect to the displayed URL for your newly created Jupyter notebook server
    - navigate to the directory where you cloned this repository, and then navigate to the python/ directory of the demo you wish to run.
    - open the .ipynb notebook and then run the cells interactively by clicking the run button.
 
 ### Viewing graphs with graphviz
-The SAS language scripts in various examples and demos produce graph visualizations produced with graphviz, which are saved in files with the extension .dot. To View them, you can convert them to to a rendered format, such as .png, with the command `dot -Tpng sample.dot > sample.png`. If you do not have graphviz installed, there are also online graphviz viewers that may be used to convert your .dot file content to an image.
+The SAS language scripts in various examples and demos produce graph visualizations produced with graphviz, which are saved in files with the extension .dot. To view them, you can convert them to a rendered format, such as .png, with the command `dot -Tpng sample.dot > sample.png`. If you do not have graphviz installed, there are also online graphviz viewers that may be used to convert your .dot file content to an image.
 
 ## Contributing
 
