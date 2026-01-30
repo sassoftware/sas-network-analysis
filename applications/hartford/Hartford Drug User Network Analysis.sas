@@ -1,4 +1,6 @@
-/*
+/* Copyright © 2025, SAS Institute Inc., Cary, NC, USA.  All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0 
+
 # Analyzing Social Interactions Among Drug Users in Hartford
 
 
@@ -23,16 +25,18 @@ At first glance, the dataset appears quite minimal. The CSV consists of a simple
 Despite the apparent simplicity of the data, the tools available in the `NETWORK` action set enable us to extract meaningful structural insights from the network. In particular, we can identify highly influential or central individuals who play a disproportionate role in connectivity and interaction patterns.
 
 This information is especially valuable for community health practitioners. Targeted interventions focused on these key individuals can be far more effective in reducing risky behaviors than interventions applied uniformly or at random across the network, leading to broader and more impactful outcomes.
-
 */
 
+
+%let _COMMON_REPO_ROOT=&_SASPROGRAMFILE/../../../../common;
+%INCLUDE "&_COMMON_REPO_ROOT/sas/cas_connection.sas";
 
 /*
 #### Establishing a SAS Cloud Analytic Services (CAS) Connection 
 */
+%put "&CAS_SERVER_HOST";
+%reconnect();
 
-cas mySession;
-libname casuser cas;
 
 /*
 ####  Data Import and Initial Inspection
@@ -42,12 +46,12 @@ We load the network edge list from a public GitHub repository and inspect the fi
 filename src url
    "https://raw.githubusercontent.com/sassoftware/sas-viya-programming/master/python/network-analysis/drug_network.csv";
 
-data casuser.DrugNetwork;
+data mycas.DrugNetwork;
    infile src dsd firstobs=2;
    input from:best12. to:best12.;
 run;
 
-proc print data=casuser.DrugNetwork(obs=10);
+proc print data=mycas.DrugNetwork(obs=10);
 run;
 
 /*
@@ -64,7 +68,7 @@ Before performing any analytical steps, we begin with a basic visualization of t
 */
 
 %PlotGraph(
-   links=casuser.DrugNetwork,
+   links=mycas.DrugNetwork,
    direction="directed",
    nodescolor="tab:blue",
    nodesshape="o",
@@ -120,16 +124,16 @@ In this needle-sharing context, leaf nodes represent individuals who receive nee
 Understanding leaf nodes helps identify populations that may be particularly vulnerable to exposure while also highlighting potential opportunities for intervention strategies that focus on prevention, monitoring, or supporting disengagement from risky behaviors.
 */
 
-data casuser.NodesOutSummary;
-   set casuser.NodesOutSummary;
+data mycas.NodesOutSummary;
+   set mycas.NodesOutSummary;
    length role $20;
    if leaf_node = 1 then role = "Leaf Node";
    else role = "Non-Leaf Node";
 run;
 
 %PlotGraph(
-   links=casuser.DrugNetwork,
-   nodes=casuser.NodesOutSummary,
+   links=mycas.DrugNetwork,
+   nodes=mycas.NodesOutSummary,
    direction="directed",
    nodescolorbycategory="role",
    nodescolorlegend=yes,
@@ -178,8 +182,8 @@ We replot the network using this richer classification to better reflect the fun
 This combined view provides a more nuanced understanding of the network by simultaneously revealing who initiates risk, who propagates it, and where it terminates. Such insights are critical for designing intervention strategies that differentiate between prevention, containment, and harm-reduction efforts across different segments of the network.
 */
 
-data casuser.NodesOutCentrality;
-   set casuser.NodesOutCentrality;
+data mycas.NodesOutCentrality;
+   set mycas.NodesOutCentrality;
    length role $20;
    centr_degree_scaled = centr_degree * 20;  /* Scale for better visualization */
    if centr_degree_out = 0 and centr_degree_in = 0 then role = "Isolated Node";
@@ -189,8 +193,8 @@ data casuser.NodesOutCentrality;
 run;
 
 %PlotGraph(
-   links=casuser.DrugNetwork,
-   nodes=casuser.NodesOutCentrality,
+   links=mycas.DrugNetwork,
+   nodes=mycas.NodesOutCentrality,
    direction="directed",
    nodescolorbycategory="role",
    nodescolorlegend=yes,
@@ -232,7 +236,7 @@ This enriched dataset is used directly in the final visualization, where node si
 proc cas;
    action fedsql.execDirect result=r status=s /
    query = '
-      create table casuser.NodesOutEnriched as
+      create table mycas.NodesOutEnriched as
       select
          a.*,
          b.community_0,
@@ -242,8 +246,8 @@ proc cas;
             when a.role = ''Bridge Node'' then ''circle''
             else ''triangle'' /* isolated nodes */
          end as "shape"
-      from casuser.NodesOutCentrality as a
-      left join casuser.NodesOutCommunity as b
+      from mycas.NodesOutCentrality as a
+      left join mycas.NodesOutCommunity as b
       on a.node = b.node
    ';
 quit;
@@ -257,8 +261,8 @@ This combined visual representation enables simultaneous exploration of individu
 */
 
 %PlotGraph(
-   links=casuser.DrugNetwork,
-   nodes=casuser.NodesOutEnriched,
+   links=mycas.DrugNetwork,
+   nodes=mycas.NodesOutEnriched,
    direction="directed",
    nodescolorbycategory="community_0",
    nodesshape="shape",
@@ -267,15 +271,6 @@ This combined visual representation enables simultaneous exploration of individu
    title="Community Structure, Node Roles, and Node Importance in the Hartford Drug User Needle-Sharing Network \n
           ▲ Source  ● Bridge  ■ Leaf  ◆ Isolated");
 
-/*
-#### Ending the CAS Session
-
-After completing the analysis, we terminate the active CAS session to release memory and computational resources. Ending the session is a good practice, especially in shared or long-running environments.
-
-The following step explicitly destroys the CAS session and cleans up all associated in-memory objects.
-*/
-
-cas mysession terminate;
 
 /*
 #### Conclusion
@@ -283,9 +278,7 @@ cas mysession terminate;
 This analysis demonstrates how network analytics can transform a simple edge list into actionable insight for public health decision-making. Using the SAS Viya `NETWORK` action set, we identified influential individuals based on degree-based influence, distinguished functional roles such as sources, bridges, leaf nodes, and isolated nodes, and uncovered community structure within the network.
 
 By combining node influence (size), community membership (color), and functional role (shape) in a single visualization, we gain a holistic view of how risk may originate, propagate, and terminate across the network. This integrated perspective enables more informed intervention strategies that move beyond uniform approaches and instead focus on individuals and subgroups that play disproportionate roles in network dynamics.
-*/
 
-/*
 ### Future Steps
 
 This analysis provides a foundation for:
